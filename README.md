@@ -9,8 +9,6 @@ on deep networks to estimate people densities in individual images. As such, onl
 In this paper, we advocate estimating people flows across image locations between consecutive images and inferring the people densities from these flows instead of directly regressing. This enables us to impose much stronger constraints encoding the conservation of the number of people.
 As a result, it significantly boosts performance without requiring a more complex architecture. Furthermore, it also enables us to exploit the correlation between people flow and optical flow to further improve the results.
 
-We will demonstrate that we consistently outperform state-of-the-art methods on five benchmark datasets.
-
 ![](./images/model.png)
 Figure 1: **Model Architecture:** Two consecutive RGB image frames are fed to the
 same encoder network that relies on the CAN scale-aware feature extractor. These multi-scale features are further concatenated and fed to a decoder network to produce the final people flow maps.
