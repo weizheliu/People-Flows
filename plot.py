@@ -127,8 +127,6 @@ for i in range(len(img_paths)):
     flow_8_path = os.path.join(output_folder,base_name).replace('.jpg','_'+folder_name+'_flow_8.jpg')
     flow_9_path = os.path.join(output_folder,base_name).replace('.jpg','_'+folder_name+'_flow_9.jpg')
 
-    print(flow_1_path)
-
     pred = cv2.resize(overall,(overall.shape[1]*8,overall.shape[0]*8),interpolation = cv2.INTER_CUBIC)/64.0
     prev_flow= prev_flow.data.cpu().numpy()[0]
     flow_1 = cv2.resize(prev_flow[0],(640,360),interpolation = cv2.INTER_CUBIC)/64.0
