@@ -11,7 +11,7 @@ As a result, it significantly boosts performance without requiring a more comple
 
 We will demonstrate that we consistently outperform state-of-the-art methods on five benchmark datasets.
 
-![](./images/model.pdf)
+![](./images/model.png)
 Figure 1: **Model Architecture:** Two consecutive RGB image frames are fed to the
 same encoder network that relies on the CAN scale-aware feature extractor. These multi-scale features are further concatenated and fed to a decoder network to produce the final people flow maps.
 
