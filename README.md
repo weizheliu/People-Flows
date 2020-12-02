@@ -90,24 +90,23 @@ year = {2020}
 
 ``` 
 
-
 ``` 
-
-@InProceedings{Liu_2019_CVPR,
+@InProceedings{Liu_2020_arxiv,
 
 author = {Liu, Weizhe and Salzmann, Mathieu and Fua, Pascal},
 
-title = {Context-Aware Crowd Counting},
+title = {Counting People by Estimating People Flows},
 
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+booktitle = {	arXiv:2012.00452 },
 
-month = {June},
-
-year = {2019}
+year = {2020}
 
 }
 
+
+
 ``` 
+
 
 
 ## Contact
