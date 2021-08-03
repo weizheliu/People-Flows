@@ -91,13 +91,13 @@ year = {2020}
 ``` 
 
 ``` 
-@InProceedings{Liu_2021_TPAMI,
+@article{Liu_2021_TPAMI,
 
 author = {Liu, Weizhe and Salzmann, Mathieu and Fua, Pascal},
 
 title = {Counting People by Estimating People Flows},
 
-booktitle = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
 
 year = {2021}
 
