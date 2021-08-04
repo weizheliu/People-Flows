@@ -1,4 +1,4 @@
-# Code for "Estimating People Flows to Better Count Them in Crowded Scenes (ECCV 2020)" and "Counting People by Estimating People Flows (TPAMI 2021)"
+# Code for "Estimating People Flows to Better Count Them in Crowded Scenes" (ECCV 2020) and "Counting People by Estimating People Flows" (TPAMI 2021)
 
 This repository is a PyTorch implementation for the paper **Estimating People Flows to Better Count Them in Crowded Scenes**. Weizhe Liu, Mathieu Salzmann, Pascal Fua. ECCV. 2020 and **Counting People by Estimating People Flows**. Weizhe Liu, Mathieu Salzmann, Pascal Fua. TPAMI. 2021. If you use this code in your research, please cite
 [the conference paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600715.pdf) and [the journal paper](https://arxiv.org/pdf/2012.00452.pdf).
